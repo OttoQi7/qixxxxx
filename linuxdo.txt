@@ -1,0 +1,14 @@
+# >>>>>>>>>> Linux DO <<<<<<<<<<
+# L站直连规则（远程规则用，策略在 Loon 里设为 DIRECT）
+# 注意：不要用 DOMAIN-SUFFIX,linux.do，会导致 connect.linux.do 登录出问题
+# 主站精确匹配
+DOMAIN,linux.do
+DOMAIN,www.linux.do
+
+# 静态资源 CDN
+DOMAIN-SUFFIX,ldstatic.com
+
+# 相关域名
+DOMAIN-SUFFIX,linuxdo.org
+DOMAIN-SUFFIX,ldcstore.com
+DOMAIN-SUFFIX,qzz.io
