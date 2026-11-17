@@ -42,9 +42,12 @@ DOMAIN-KEYWORD,fundexpress
 
 # >>>>>>>>>> 3. 嘉信理财 (Charles Schwab) <<<<<<<<<<
 # 嘉信主站、网银、Schwab Bank 与退休计划，以及交易平台 Thinkorswim
+# 参考 masnmarc/broker-rules：schwab.com、schwab.com.cn、schwab.com.hk、schwab.co.uk
 DOMAIN-SUFFIX,schwab.com
-DOMAIN-SUFFIX,schwabcdn.com
+DOMAIN-SUFFIX,schwab.com.cn
 DOMAIN-SUFFIX,schwab.com.hk
+DOMAIN-SUFFIX,schwab.co.uk
+DOMAIN-SUFFIX,schwabcdn.com
 DOMAIN-SUFFIX,schwabbank.com
 DOMAIN-SUFFIX,schwabplan.com
 DOMAIN-KEYWORD,schwab
@@ -66,92 +69,13 @@ DOMAIN-KEYWORD,airstarbank
 
 # >>>>>>>>>> 5. 国际汇款 (Wise) <<<<<<<<<<
 # Wise 全球网银及跨国电汇核心分流
+# Wise 官方域名只有 wise.com 与 transferwise.com（2021 年 TransferWise 更名而来）
 DOMAIN-SUFFIX,wise.com
 DOMAIN-SUFFIX,transferwise.com
 DOMAIN-KEYWORD,wise
 DOMAIN-KEYWORD,transferwise
 
-# >>>>>>>>>> 6. 香港银行总集 (Hong Kong Banks) <<<<<<<<<<
-# 香港持牌银行：传统银行 + 虚拟银行（众安见第 1 节，天星/象象见第 4 节）
-# 恒生银行 Hang Seng
-DOMAIN-SUFFIX,hangseng.com
-DOMAIN-KEYWORD,hangseng
-# 中国银行（香港） BOCHK
-DOMAIN-SUFFIX,bochk.com
-DOMAIN-KEYWORD,bochk
-# 渣打银行 Standard Chartered
-DOMAIN-SUFFIX,sc.com
-DOMAIN-KEYWORD,standardchartered
-# 东亚银行 Bank of East Asia
-DOMAIN-SUFFIX,hkbea.com
-DOMAIN-KEYWORD,hkbea
-# 星展银行 DBS
-DOMAIN-SUFFIX,dbs.com
-DOMAIN-KEYWORD,dbs
-# 花旗银行 Citibank
-DOMAIN-SUFFIX,citibank.com.hk
-DOMAIN-SUFFIX,citi.com
-DOMAIN-KEYWORD,citibank
-# 工商银行（亚洲） ICBC Asia
-DOMAIN-SUFFIX,icbcasia.com
-DOMAIN-KEYWORD,icbcasia
-# 建设银行（亚洲） CCB Asia
-DOMAIN-SUFFIX,ccb.com
-DOMAIN-KEYWORD,ccb
-# 招商永隆银行 CMB Wing Lung
-DOMAIN-SUFFIX,cmbwinglungbank.com
-DOMAIN-KEYWORD,cmbwinglung
-# 中信银行（国际） CITIC Bank International
-DOMAIN-SUFFIX,cncbinternational.com
-DOMAIN-KEYWORD,cncbinternational
-# 大新银行 Dah Sing Bank
-DOMAIN-SUFFIX,dahsing.com
-DOMAIN-KEYWORD,dahsing
-# 华侨银行 OCBC
-DOMAIN-SUFFIX,ocbc.com
-DOMAIN-KEYWORD,ocbc
-# 交通银行 Bank of Communications
-DOMAIN-SUFFIX,bankcomm.com
-DOMAIN-KEYWORD,bankcomm
-# 中国农业银行 ABC
-DOMAIN-SUFFIX,abchina.com
-DOMAIN-KEYWORD,abchina
-# 上海商业银行 Shanghai Commercial Bank
-DOMAIN-SUFFIX,shacombank.com.hk
-DOMAIN-KEYWORD,shacombank
-# 南洋商业银行 Nanyang Commercial Bank
-DOMAIN-SUFFIX,ncb.com.hk
-DOMAIN-KEYWORD,ncb
-# 创兴银行 Chong Hing Bank
-DOMAIN-SUFFIX,chonghingbank.com
-DOMAIN-KEYWORD,chonghingbank
-# 富邦银行 Fubon Bank
-DOMAIN-SUFFIX,fubonbank.com.hk
-DOMAIN-KEYWORD,fubonbank
-# 大众银行 Public Bank
-DOMAIN-SUFFIX,publicbank.com.hk
-DOMAIN-KEYWORD,publicbank
-# 华侨永亨银行 OCBC Wing Hang
-DOMAIN-SUFFIX,ocbcwh.com.hk
-DOMAIN-KEYWORD,ocbcwh
-
-# --- 香港虚拟银行 Virtual Banks（其余两家见第 1、4 节）---
-# Mox Bank
-DOMAIN-SUFFIX,mox.com
-DOMAIN-KEYWORD,mox
-# Livi Bank
-DOMAIN-SUFFIX,livibank.com
-DOMAIN-KEYWORD,livi
-# WeLab Bank 匯立銀行
-DOMAIN-SUFFIX,welab.bank
-DOMAIN-KEYWORD,welab
-# Fusion Bank 富融銀行
-DOMAIN-SUFFIX,fusionbank.com
-DOMAIN-KEYWORD,fusionbank
-# PAO Bank 平安壹賬通銀行
-DOMAIN-SUFFIX,paob.com.hk
-DOMAIN-KEYWORD,paob
-# Ant Bank 螞蟻銀行
+# >>>>>>>>>> 6. 蚂蚁银行 (Ant Bank, 香港虚拟银行) <<<<<<<<<<
 DOMAIN-SUFFIX,antbank.hk
 DOMAIN-KEYWORD,antbank
 
